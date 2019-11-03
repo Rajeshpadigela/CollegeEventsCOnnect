@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "671161203571",
+    "firebase_url": "https://collegeeventsconnet.firebaseio.com",
+    "project_id": "collegeeventsconnet",
+    "storage_bucket": "collegeeventsconnet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671161203571:android:b79962adf3485e2b86a306",
+        "android_client_info": {
+          "package_name": "in.com.rajeshpadigela.cec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671161203571-9adgpccjpirciphdd1e67foi85h8rlb5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.com.rajeshpadigela.cec",
+            "certificate_hash": "4808b25863b7c17227e652618fc41245a1db5a9c"
+          }
+        },
+        {
+          "client_id": "671161203571-ql93ege0acdeb9v0telkna2067to1cgs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDabCXz57ziHMJoVlRQ0T1eGoS31V5ybRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671161203571-ql93ege0acdeb9v0telkna2067to1cgs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
