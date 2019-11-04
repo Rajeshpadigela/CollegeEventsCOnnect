@@ -1,5 +1,6 @@
 package in.com.rajeshpadigela.cec;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -42,13 +43,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        ActionBar actionBar = getActionBar();
+        actionBar.setDisplayShowTitleEnabled(false);
+        actionBar.setDisplayShowHomeEnabled(false);
+
         mAuth = FirebaseAuth.getInstance();
         firebaseFirestore = FirebaseFirestore.getInstance();
 
-        mainToolbar = (Toolbar) findViewById(R.id.main_toolbar);
+        mainToolbar = findViewById(R.id.main_toolbar);
         setSupportActionBar(mainToolbar);
 
-        getSupportActionBar().setTitle("Photo Blog");
 
         if(mAuth.getCurrentUser() != null) {
 
